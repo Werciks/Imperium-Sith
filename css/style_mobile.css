@@ -1,0 +1,171 @@
+* {
+	margin: 0; 
+	padding: 0;
+	font-family: Source Sans Pro, arial;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url();
+	background-color: black;
+}
+
+#wrapper {
+	max-width: 1000px;
+	margin: 0 auto;
+	background-color: grey;
+	opacity: 0.75;
+}
+
+header img {
+	width: 100%;
+	display: block;
+}
+
+nav {
+	background-color: red;
+	opacity: 0.75;
+	overflow: hidden;
+}
+a.menu {
+	display: scroll;
+	width: 25%;
+	float: left;
+	font-family: Big Shoulders Stencil Text, arial;
+	color: black;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	background-color: red;
+	padding: 15px 30px;
+}
+a.menu:hover {
+	border-bottom: 10px solid black; 
+}
+
+article {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding: 0 20px;
+}
+
+h1{
+	font-family: Aref Ruqaa, arial;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	margin: 0 10% 20px;
+	padding-bottom: 15px;
+	border-bottom: 2px solid darkred;
+}
+
+img.left {
+	display: none;
+	float: left;
+	margin: 0px 10px 10px 0;
+	width: 25%;
+
+}
+
+img.right {
+	display: none;
+	float: right;
+	margin: 0px 10px 0px 10;
+	padding: 10px;
+	width: 25%;
+}
+
+img.center {
+	display: none;
+	margin: 0px 10px 10px 0;
+	width: 100%
+}
+
+p{
+	text-align: justify;
+	line-height: 25px;
+	font-size: 11px;
+	padding: 15px 0;
+}
+
+p.p1{
+	text-align: justify;
+	line-height: 20px;
+	padding-bottom: 20px;
+	
+}
+
+p.p2{
+	text-align: center;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 10px;
+	padding-top: 30px;
+
+
+}
+
+p.p3{
+	text-align: center;
+	font-weight: bold;
+	color: darkred;
+}
+
+a.odnosnik {
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a.odnosnik:hover {
+	color: darkred;
+	text-decoration: underline;
+
+}
+
+p.l{
+	display: grid;
+	grid-template-columns: repeat(4 1fr);
+	grid-template-rows: repeat(4 1fr);
+	grid-column: 5/ span 5;
+	grid-row: 2/ span 5;
+	text-align: center;
+	font-weight: bold;
+	font-size: 12px;
+	padding-left: 20px;
+}
+
+p.r{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	text-decoration: underline;
+	font-family: Big Shoulders Stencil Text;
+	font-size: 13px;
+	font-weight: bold;
+	padding-left: 20px;
+}
+
+iframe {
+	display: none;
+	width: 100%;
+}
+
+footer {
+	height: 15px;
+	background-color: red;
+	color: black;
+	font-family: Big Shoulders Stencil Text;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 15px;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.button {
+	display: none;
+	
+}
